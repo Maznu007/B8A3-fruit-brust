@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit burst</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="w-[1140px] h-[120px] bg-[#F85559] rounded-[600px] mt-12 mb-12 ml-52 mr-52">
+            <div class="navbar ">
+                <div class="flex-1 items-center pl-10 pt-6">
+                    <ul class="flex gap-4">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">shop</a></li>
+                        <li><a href="">all fruits</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1 items-center justify-centers gap-4 pt-6">
+                    <img class="w-12 h-14" src="images/logo.png" alt="">
+                    <h3 class="text-2xl">Fruit Burst</h3>
+                </div>
+                <div class="flex-1 pt-6">
+                    <div class="form-control">
+                        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+
+        <div class="ml-52 mr-52 mt-14 mb-14">
+            <div class="carousel w-full h-[600px]">
+                <div id="slide1" class="carousel-item relative w-full justify-center">
+                    <div class="hero " style="background-image: url(images/banner1.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your<br>doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button
+                                    class="btn btn-primary bg-[#F85559] hover:bg-[#F85559] hover:border-none border-[#F85559]">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- second slide -->
+
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your<br>doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button
+                                    class="btn btn-primary bg-[#F85559] hover:bg-[#F85559] hover:border-none border-[#F85559]">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- third slide -->
+
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your<br>doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button
+                                    class="btn btn-primary bg-[#F85559] hover:bg-[#F85559] hover:border-none border-[#F85559]">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- fourth slide -->
+
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your<br>doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products</p>
+                                <button
+                                    class="btn btn-primary bg-[#F85559] hover:bg-[#F85559] hover:border-none border-[#F85559]">Shop
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+    <main>
+        <section>
+            <div class="flex justify-around ml-36 mr-36 mt-24 mb-16">
+                <div>
+                    <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+                    <p class="text-base font-medium text-slate-600">Contrary to popular belief, is not simply random
+                        text. It has roots in a piece of classical Latin<br>literature from 45 BC, making it over 2000
+                        years old.</p>
+                </div>
+                <div class="flex items-center">
+                    <div>
+                        <h1 class="font-extrabold text-5xl">29</h1>
+                        <h5 class="text-base font-medium text-slate-500">Days</h5>
+                    </div>
+                    <img src="images/Frame.svg" alt="">
+
+                    <div>
+                        <h1 class="font-extrabold text-5xl">15</h1>
+                        <h5 class="text-base font-medium text-slate-500">hours</h5>
+                    </div>
+                    <img src="images/Frame.svg" alt="">
+
+                    <div>
+                        <h1 class="font-extrabold text-5xl">25</h1>
+                        <h5 class="text-base font-medium text-slate-500">minutes</h5>
+                    </div>
+                    <img src="images/Frame.svg" alt="">
+
+                    <div>
+                        <h1 class="font-extrabold text-5xl">08</h1>
+                        <h5 class="text-base font-medium text-slate-500">seconds</h5>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section end -->
+
+        <section class="w-max">
+            <div class="grid grid-cols-4 ">
+                <div
+                    class="w-[342px] h-[457px] rounded-lg bg-white border-solid border-2 border-gray-400 justify-center items-center ml-[87px]">
+                    <img class="pl-[118px] pt-[50px]" src="images/fruit6.png" alt="">
+                    <h4 class=" text-base font-bold border-t-gray-950 px-[107px] pt-[10px] border-b-2">12.90$ - 18.85$
+                    </h4>
+                    <h5 class="text-base font-medium pl-[137px] pt-[30px] ">Apples</h5>
+                    <img class="items-center justify-center pl-[87px] pt-[30px]" src="images/Group 24.svg" alt="">
+                    <h5 class="font-bold text-base text-[#F85559] pl-[137px] pt-[30px] ">Details</h5>
+                </div>
+
+
+                <div
+                    class="w-[342px] h-[457px] rounded-lg bg-white border-solid border-2 border-gray-400 justify-center items-center ml-[87px]">
+                    <img class="pl-[118px] pt-[50px]" src="images/fruit7.png" alt="">
+                    <h4 class=" text-base font-bold border-t-gray-950 px-[107px] pt-[10px] border-b-2">12.90$ - 18.85$
+                    </h4>
+                    <h5 class="text-base font-medium pl-[137px] pt-[30px] ">Orange</h5>
+                    <img class="items-center justify-center pl-[87px] pt-[30px]" src="images/Group 24.svg" alt="">
+                    <h5 class="font-bold text-base text-[#F85559] pl-[137px] pt-[30px] ">Details</h5>
+                </div>
+
+
+                <div
+                    class="w-[342px] h-[457px] rounded-lg bg-white border-solid border-2 border-gray-400 justify-center items-center ml-[87px]">
+                    <img class="pl-[118px] pt-[50px]" src="images/fruit8.png" alt="">
+                    <h4 class=" text-base font-bold border-t-gray-950 px-[107px] pt-[10px] border-b-2">12.90$ - 18.85$
+                    </h4>
+                    <h5 class="text-base font-medium pl-[137px] pt-[30px] ">Red Dragon</h5>
+                    <img class="items-center justify-center pl-[87px] pt-[30px]" src="images/Group 24.svg" alt="">
+                    <h5 class="font-bold text-base text-[#F85559] pl-[137px] pt-[30px] ">Details</h5>
+                </div>
+
+                <div
+                    class="w-[342px] h-[457px] rounded-lg bg-white border-solid border-2 border-gray-400 justify-center items-center ml-[87px]">
+                    <img class="pl-[118px] pt-[50px]" src="images/fruit9.png" alt="">
+                    <h4 class=" text-base font-bold border-t-gray-950 px-[107px] pt-[10px] border-b-2">12.90$ - 18.85$
+                    </h4>
+                    <h5 class="text-base font-medium pl-[137px] pt-[30px] ">Banana</h5>
+                    <img class="items-center justify-center pl-[87px] pt-[30px]" src="images/Group 24.svg" alt="">
+                    <h5 class="font-bold text-base text-[#F85559] pl-[137px] pt-[30px] ">Details</h5>
+                </div>
+            </div>
+        </section>
+        <section class="items-center justify-center ml-[50%] mt-[40px] mb-[40px]">
+            <button class="btn btn-primary bg-[#F85559]">Shop All</button>
+        </section>
+
+
+
+        <section class="w-[1240px] h-[690px] ml-[140px] mr-[240px] mt-[70px] mb-[70px]">
+            <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-3xl">
+                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <div class="grid grid-cols-4 gap-12">
+                            <div>
+                                <img class="mask mask-circle " src="/images/member1.png" />
+                                <h1 class="text-base font-bold">Awlad Hossain</h1>
+                                <p class="text-xs font-medium">Fruits Expert</p>
+                                <div class="grid grid-flow-col gap-4">
+                                    <a href=""><img src="images/facebook 1.svg" alt=""></a>
+                                    <a href=""><img src="images/twitter 1.svg" alt=""></a>
+                                    <a href=""><img src="images/linkedin 1.svg" alt=""></a>
+                                    <a href=""><img src="images/instagram 1.svg" alt=""></a>
+                                    <a href=""><img src="images/Group 49.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="mask mask-circle " src="/images/member2.png" />
+                                <h1 class="text-base font-bold">Safia Chowdhury</h1>
+                                <p class="text-xs font-medium">Fruits Expert</p>
+                                <div class="grid grid-flow-col gap-4">
+                                    <a href=""><img src="images/facebook 1.svg" alt=""></a>
+                                    <a href=""><img src="images/twitter 1.svg" alt=""></a>
+                                    <a href=""><img src="images/linkedin 1.svg" alt=""></a>
+                                    <a href=""><img src="images/instagram 1.svg" alt=""></a>
+                                    <a href=""><img src="images/Group 49.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="mask mask-circle " src="/images/member3.png" />
+                                <h1 class="text-base font-bold">Rokib Chowdhury</h1>
+                                <p class="text-xs font-medium">Fruits Expert</p>
+                                <div class="grid grid-flow-col gap-4">
+                                    <a href=""><img src="images/facebook 1.svg" alt=""></a>
+                                    <a href=""><img src="images/twitter 1.svg" alt=""></a>
+                                    <a href=""><img src="images/linkedin 1.svg" alt=""></a>
+                                    <a href=""><img src="images/instagram 1.svg" alt=""></a>
+                                    <a href=""><img src="images/Group 49.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div>
+                                <img class="mask mask-circle " src="/images/member4.png" />
+                                <h1 class="text-base font-bold">Chaity</h1>
+                                <p class="text-xs font-medium">Fruits Expert</p>
+                                <div class="grid grid-flow-col gap-4">
+                                    <a href=""><img src="images/facebook 1.svg" alt=""></a>
+                                    <a href=""><img src="images/twitter 1.svg" alt=""></a>
+                                    <a href=""><img src="images/linkedin 1.svg" alt=""></a>
+                                    <a href=""><img src="images/instagram 1.svg" alt=""></a>
+                                    <a href=""><img src="images/Group 49.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <footer class="footer footer-center p-10 bg-black text-base-content rounded text-white">
+            <div class="flex items-center justify-centers gap-4 pt-6">
+                <img class="w-12 h-14" src="images/logo.png" alt="">
+                <h3 class="text-2xl">Fruit Burst</h3>
+            </div>
+            <div class="grid grid-flow-col gap-4">
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </div>
+            <div>
+                <div class="grid grid-flow-col gap-4">
+                    <a href=""><img src="images/facebook 1.svg" alt=""></a>
+                    <a href=""><img src="images/twitter 1.svg" alt=""></a>
+                    <a href=""><img src="images/linkedin 1.svg" alt=""></a>
+                    <a href=""><img src="images/instagram 1.svg" alt=""></a>
+                    <a href=""><img src="images/Group 49.svg" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
